@@ -1,0 +1,318 @@
+body{position:relative;background-color:#e8e8e8;font-family:-webkit-body;font-size:15px;color:#000;}
+h2,h3,h4,h5,h6{font-family:-webkit-body;color:#666;}
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:500;
+	
+	margin-bottom:25px;
+}
+
+h2 {
+	font-weight:400;
+	margin-bottom:15px;
+	
+}
+h3{margin-bottom:1px;
+}
+#aboutuswrap h3{
+text-align:justify;
+}
+
+h5{text-align:center}
+p{
+	margin-bottom:20px;
+
+	font-family: 'Poly', serif;
+	font-size:16px;
+}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small{margin-left:12px;font-size:15px;font-style:italic;color:#000;line-height:5px;letter-spacing:0}
+
+
+/********** BOOTSTRAP MODIFICATIONS **********/
+/* Navbar Tweaks */
+.navbar-inverse .navbar-inner {
+    background-color: #ec602f;
+    background-repeat: repeat-x;
+	border-color: transparent;
+	background-image: none;
+}
+
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #fff;
+  text-shadow: none;
+  text-transform:uppercase;
+  font-weight:500;
+}
+
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .brand:focus,
+.navbar-inverse .nav > li > a:focus {
+  color: #ffffff;
+}
+
+.navbar-inverse .brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-text {
+  color: #999999;
+}
+
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li > a:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-link {
+  color: #999999;
+}
+
+.navbar-inverse .navbar-link:hover,
+.navbar-inverse .navbar-link:focus {
+  color: #ffffff;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+        
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #424242;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+/* HR Tweak */
+hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px dashed #eeeeee;
+  border-bottom: 1px dashed #bfbfbf;
+}
+
+
+/********** HEADER WRAP **********/
+#headerwrap {
+    width: 100%;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;;
+    min-height: 600px;
+    margin-top: -10px;
+    padding-top:160px;
+    text-align:center;
+}
+
+#headerwrap h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:400;
+	font-size:70px;
+	color:#fff;
+	margin-bottom:25px;
+}
+
+/********** WELCOME WRAP **********/
+#diff {
+	
+	
+	padding-top:5px;
+	background:#fff;
+	color:#424242;
+}
+
+
+
+
+
+/********** Aboutus WRAP **********/
+#aboutuswrap {
+	display:block;
+	text-align:center;
+	margin-top:2%;
+}
+
+#aboutuswrap h2 {
+	text-align:left;
+	margin-left:5px;
+	border-left:10px #ec602f solid;
+	padding-left:3px;
+	font-size:26px;
+}
+
+#aboutuswrap p {
+	text-align:left;
+}
+
+
+/********** team WRAP **********/
+#teamwrap {
+	display:block;
+	text-align:center;
+	margin-top:2%;
+}
+
+#teamwrap h2 {
+	text-align:left;
+	margin-left:5px;
+	border-left:10px #ec602f solid;
+	padding-left:3px;
+}
+
+#teamwrap h3 {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight:400;
+	font-size:30px;
+	color:#ec602f;
+	text-align:left;
+	padding: 0px 66px 0px 28px;
+}
+
+#teamwrap h4 {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight:400;
+	font-size:26px;
+	line-height:30px;
+	color:#8a8a8a;
+}
+
+#teamwrap p {
+	text-align:left;
+}
+
+
+
+/********** PICS WRAP **********/
+#picswrap {
+	text-align:center;
+	display:block;
+	margin-top:2%;
+}
+
+
+#picswrap h2 {
+	padding:20px;
+}
+
+/********** FOOTER WRAP **********/
+#contactwrap {
+    width: 100%;
+    background: #232121;
+    padding-bottom: 11px;
+    text-align:center;
+    /*margin-top:-12%;*/
+}
+
+#contactwrap h2 {
+	text-align:left;
+	margin-left:5px;
+	border-left:10px #ec602f solid;
+	padding-left:3px;
+	margin-bottom:40px;
+	color:#fff;
+}
+
+#contactwrap h3 {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight:400;
+	font-size:30px;
+	color:#ec602f;
+	text-align:center;
+    margin:5px;
+}
+
+#contactwrap h4 {
+	font-family: 'Open Sans Condensed', sans serif;
+	font-weight:400;
+	font-size:22px;
+	line-height:28px;
+	color:#fff;
+    margin:5px;
+
+}
+
+
+
+
+
+
+.about_team{
+	margin:0px 9px 19px 8.33px;
+	/*background-color:#fff;*/
+	min-height:100px;
+}
+
+.about_team_center{
+	width:100%;
+	position:relative;
+	z-index:1;
+}
+
+.about_team_center img{
+	border:5px solid #4b4646;
+	border-radius:5px 5px 0px 0px;
+	width:180px;
+    height:180px;
+    border-radius:50%;
+    display:block;
+    background-position-y:25% 
+}
+
+.about_team_center p{
+	color:#8a8a8a;
+	font-size:16px;
+	text-align:left;
+	margin:5px;
+	padding:0px 0px 20px 25px;
+}
+
+
+
+
+
+/********** MEDIA QUIERIES **********/
+
+@media (max-width: 979px) {
+#headerwrap {
+    margin-top: -20px;
+    padding-top:160px;
+}
+}
+
+
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 590px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
