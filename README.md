@@ -1,3 +1,3 @@
 # scosh
 Website for scosh
-(scosh.in)[http://scosh.in]
+[scosh.in](http://scosh.in)
